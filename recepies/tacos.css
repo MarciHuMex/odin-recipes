@@ -1,0 +1,14 @@
+.foto {
+width: 300px;
+height: auto;
+}
+#head{
+text-align: center;
+background-color: red;
+color: wheat;
+}
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
