@@ -1,0 +1,22 @@
+.list {
+    border: 8px;
+    border-style: dotted;
+    border-color: rebeccapurple;
+    display: inline-block;
+    padding-right: 11px;
+}
+
+.desc {
+    border: 11px;
+    text-align: center;
+    border-style: dashed;
+    border-color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
