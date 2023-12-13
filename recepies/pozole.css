@@ -1,22 +1,46 @@
-.list {
+body {
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.recipe-steps {
+    margin: 10px;
     border: 8px;
     border-style: dotted;
-    border-color: rebeccapurple;
-    display: inline-block;
+    border-color: red white green white;
     padding-right: 11px;
 }
 
-.desc {
-    border: 11px;
-    text-align: center;
-    border-style: dashed;
-    border-color: red;
+.list {
+    border: 8px;
+    border-style: dotted;
+    border-color: red white green white;
+    padding-right: 11px;
 }
-
+    .desc {
+        margin: 11px auto;
+        display:inline-flex;
+        text-align: center;
+        border: 11px;
+        border-style: dashed;
+        border-color: red white green white;
+        padding: 5px 15px;
+    }
 h1 {
     text-align: center;
 }
 
 .image {
     text-align: center;
+}
+
+.background {
+    background-color:khaki;
 }
